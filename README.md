@@ -46,9 +46,7 @@ wallhack.**
 3. A **tray icon** appears by the clock. Windows 11 tucks new tray icons into the **`^`
    overflow** — click the little up-arrow to find it. Drag it out to keep it visible.
 4. **Right-click the tray icon → enter your licence key** when asked.
-5. The status should read **"Installed — DCS files: up to date."**
-6. Fly the **F-14B(U)**. The display is on your visor — it does not show in external (F2)
-   views, by design.
+5. The status should read **"Installed — DCS files: up to date."** Fly the **F-14B(U)**.
 
 ## Updating
 
