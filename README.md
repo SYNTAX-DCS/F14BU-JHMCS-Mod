@@ -1,5 +1,7 @@
 # F-14B(U) JHMCS — Helmet-Mounted Display for the DCS Heatblur F-14
 
+### a **PixelPilotClub** project · built by **SYNTAX**
+
 A JHMCS-style **helmet-mounted display** for Heatblur's F-14 in DCS World — a native
 overlay for **flat screen and VR** that puts flight, weapons and threat information on the
 pilot's visor, wherever they look.
@@ -67,7 +69,8 @@ running version; no need to uninstall first.
 
 ## Get involved
 
-Beta keys, feature discussion, and bug reports: **https://discord.gg/6PK8ZtZ5u9**
+Come and fly with **PixelPilotClub** — beta keys, feature discussion, and bug reports are
+all on the Discord: **https://discord.gg/6PK8ZtZ5u9**
 
 ## Where it's going
 
@@ -77,6 +80,8 @@ integration), built layer by layer on Heatblur's Tomcat, always on the same rule
 display earns every symbol it draws.
 
 ---
+
+**PixelPilotClub** · created by **SYNTAX** · [Discord](https://discord.gg/6PK8ZtZ5u9)
 
 *An independent, free fan project for DCS World. Requires Heatblur's F-14. Not affiliated
 with Heatblur Simulations or Eagle Dynamics.*
