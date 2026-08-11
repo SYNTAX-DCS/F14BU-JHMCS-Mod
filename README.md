@@ -1,11 +1,18 @@
 # F-14B(U) JHMCS — Helmet-Mounted Display for the DCS Heatblur F-14
 
-A JHMCS-style **helmet-mounted display** for Heatblur's F-14 in DCS World — a
-native overlay for **flat screen and VR** that puts flight, weapons and threat
-information on the pilot's visor, wherever they look.
+A JHMCS-style **helmet-mounted display** for Heatblur's F-14 in DCS World — a native
+overlay for **flat screen and VR** that puts flight, weapons and threat information on the
+pilot's visor, wherever they look.
 
-> **Private beta.** This is an invite-tested build. The installer here is public,
-> but the mod needs a **licence key** to run — join the Discord below for beta access.
+## ⬇ Download
+
+**[Download the latest installer →](../../releases/latest)**
+
+The installer is on the **Releases** page (link above), **not** in the file list on this
+page. Grab the `JHMCS-Installer-vX.Y.Z.exe` from the latest release.
+
+> **Private beta.** The installer is public, but the mod needs a **licence key** to run —
+> join the [Discord](https://discord.gg/6PK8ZtZ5u9) for beta access.
 
 ## What it does
 
@@ -20,30 +27,47 @@ information on the pilot's visor, wherever they look.
 
 Nothing on this display is invented. Every cue is driven by the jet's own systems — if the
 RWR lamp isn't lit, no threat is drawn ("no lamp, no ink"); anything the aircraft can't
-truly know is styled as advisory, dashed, or not shown at all. On servers that restrict
-data exports it degrades honestly instead of guessing. **A helmet display, not a wallhack.**
+truly know is styled as advisory, dashed, or not shown at all. **A helmet display, not a
+wallhack.**
 
 ## Requirements
 
 - DCS World (stable or open beta)
-- **Heatblur F-14 Tomcat** module (the F-14B(U) submodel)
-- A licence key — see Discord
+- **Heatblur F-14 Tomcat** module (fly the **F-14B(U)** submodel)
+- A licence key — see [Discord](https://discord.gg/6PK8ZtZ5u9)
 
-## Install
+## Install (first time)
 
-1. Download the latest **`JHMCS-Installer-vX.Y.Z.exe`** from
-   [Releases](../../releases/latest).
-2. Run it. It installs the overlay into your DCS folder and adds a tray app for settings.
-3. Enter your licence key when prompted.
-4. Fly the F-14B(U).
+1. **[Download the latest installer](../../releases/latest)** — the `.exe` from Releases.
+2. **Run it.** If DCS lives in `Program Files`, Windows will ask for administrator rights —
+   that's expected (it writes one file into your DCS folder). Approve it.
+3. A **tray icon** appears by the clock. Windows 11 tucks new tray icons into the **`^`
+   overflow** — click the little up-arrow to find it. Drag it out to keep it visible.
+4. **Right-click the tray icon → enter your licence key** when asked.
+5. The status should read **"Installed — DCS files: up to date."**
+6. Fly the **F-14B(U)**. The display is on your visor — it does not show in external (F2)
+   views, by design.
 
-**Updating:** the tray app checks here for new releases — **Check for Updates** downloads
-and runs the newer installer for you, one click.
+## Updating
+
+**The easy way (one click):** right-click the tray icon → **Check for Updates**. If a newer
+version exists here, it downloads and runs it for you — the old tray closes itself and your
+settings and VR layer carry over. If it then says *"update your DCS files?"*, click **Yes**.
+
+**The manual way:** download the newer installer from
+**[Releases](../../releases/latest)** and run it. Same result — it takes over from the
+running version; no need to uninstall first.
+
+## Troubleshooting
+
+- **Nothing on the visor?** Right-click the tray → **Collect Diagnostics** and send the zip
+  in Discord. The zip already contains everything needed.
+- **Menu says "Install needs repair"?** Click **Setup & Repair → Fix Existing Files** once
+  (or say **Yes** to the update prompt at startup).
 
 ## Get involved
 
-Beta keys, feature discussion, and bug reports are on Discord:
-**https://discord.gg/6PK8ZtZ5u9**
+Beta keys, feature discussion, and bug reports: **https://discord.gg/6PK8ZtZ5u9**
 
 ## Where it's going
 
