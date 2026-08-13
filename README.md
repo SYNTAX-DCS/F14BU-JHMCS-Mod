@@ -1,85 +1,58 @@
-# F-14B(U) JHMCS — Helmet-Mounted Display for the DCS Heatblur F-14
+# F-14B(U) JHMCS
 
-### a **PixelPilotClub** project · built by **SYNTAX**
+A helmet-mounted display for the Heatblur **F-14B(U)** in DCS World — symbology that follows
+your head, so you can find, identify and engage without looking through the HUD.
 
-A JHMCS-style **helmet-mounted display** for Heatblur's F-14 in DCS World — a native
-overlay for **flat screen and VR** that puts flight, weapons and threat information on the
-pilot's visor, wherever they look.
+Heading tape referenced to where you are *looking* · pitch ladder and bank scale · velocity
+vector · air contacts with type, range and altitude · ground waypoints and SAM threats ·
+weapon status and launch cues · master modes driven by the cockpit DISPLAYS panel.
 
-## ⬇ Download
+## Download
 
-**[Download the latest installer →](../../releases/latest)**
-
-The installer is on the **Releases** page (link above), **not** in the file list on this
-page. Grab the `JHMCS-Installer-vX.Y.Z.exe` from the latest release.
-
-> **Private beta.** The installer is public, but the mod needs a **licence key** to run —
-> join the [Discord](https://discord.gg/6PK8ZtZ5u9) for beta access.
-
-## What it does
-
-- **Helmet flight & weapon symbology** — pitch ladder, heading, speed/altitude, master
-  modes, weapon status and shoot cueing, drawn on the visor at any look angle.
-- **RWR threat rose** — when your RWR lamps light, bearing sticks appear around the flight
-  path marker with threat type codes. Watch a launch come at you.
-- **A/G LANTIRN targeting** — a diamond on your **designated point**, and a live crosshair
-  that follows the **pod's line of sight on the ground** as you slew.
-
-## The rule it follows
-
-Nothing on this display is invented. Every cue is driven by the jet's own systems — if the
-RWR lamp isn't lit, no threat is drawn ("no lamp, no ink"); anything the aircraft can't
-truly know is styled as advisory, dashed, or not shown at all. **A helmet display, not a
-wallhack.**
+Get the latest **installer** and the **user guide (PDF)** from the
+[Releases page](../../releases).
 
 ## Requirements
 
-- DCS World (stable or open beta)
-- **Heatblur F-14 Tomcat** module (fly the **F-14B(U)** submodel)
-- A licence key — see [Discord](https://discord.gg/6PK8ZtZ5u9)
+- Windows 10 / 11 (64-bit)
+- DCS World with the Heatblur **F-14 Tomcat** module (F-14B(U))
 
-## Install (first time)
+## Install
 
-1. **[Download the latest installer](../../releases/latest)** — the `.exe` from Releases.
-2. **Run it.** If DCS lives in `Program Files`, Windows will ask for administrator rights —
-   that's expected (it writes one file into your DCS folder). Approve it.
-3. A **tray icon** appears by the clock. Windows 11 tucks new tray icons into the **`^`
-   overflow** — click the little up-arrow to find it. Drag it out to keep it visible.
-4. **Right-click the tray icon → enter your licence key** when asked.
-5. The status should read **"Installed — DCS files: up to date."** Fly the **F-14B(U)**.
+1. Download and run `JHMCS-Installer.exe` from Releases.
+2. **Close DCS first** — the mod loads at startup and cannot be replaced while DCS is open.
+3. Accept the administrator prompt (only needed if DCS is under `Program Files`).
+4. Click **Install**, then start DCS and fly the F-14B(U).
 
-## Updating
+The display appears when you look away from the HUD, and blanks when you look through it.
+Full operating instructions are in the user guide (PDF on the Releases page).
 
-**The easy way (one click):** right-click the tray icon → **Check for Updates**. If a newer
-version exists here, it downloads and runs it for you — the old tray closes itself and your
-settings and VR layer carry over. If it then says *"update your DCS files?"*, click **Yes**.
+## Uninstall
 
-**The manual way:** download the newer installer from
-**[Releases](../../releases/latest)** and run it. Same result — it takes over from the
-running version; no need to uninstall first.
+Right-click the tray icon → **Uninstall**. Every file the installer changed is restored
+exactly as it was, including any other mod's file it had to move aside.
 
-## Troubleshooting
+## If something isn't right
 
-- **Nothing on the visor?** Right-click the tray → **Collect Diagnostics** and send the zip
-  in Discord. The zip already contains everything needed.
-- **Menu says "Install needs repair"?** Click **Setup & Repair → Fix Existing Files** once
-  (or say **Yes** to the update prompt at startup).
+Right-click the tray icon → **Collect Diagnostics**. It writes a zip to your Desktop with
+the logs we need. Send it to us on Discord and we can see exactly what the mod is doing.
 
-## Get involved
+## Good to know
 
-Come and fly with **PixelPilotClub** — beta keys, feature discussion, and bug reports are
-all on the Discord: **https://discord.gg/6PK8ZtZ5u9**
+- **Uses `DCS\bin\version.dll`.** Only one mod can use that slot. If another mod already
+  does (for example the Modern F-15E mod, or ReShade), the installer backs it up, tells you
+  what it displaced, and restores it when you uninstall — but that mod is inactive while
+  this one is installed.
+- **The launch cue is an advisory.** DCS does not expose the F-14's weapons computer to
+  mods, so the SHOOT cue is computed from range against a per-missile envelope. It tracks
+  the HUD closely, but the HUD remains the authority — which is why the cue is drawn dashed.
+- **Single-player and immersion focused.** The contact display draws on DCS's world data
+  rather than the jet's radar.
 
-## Where it's going
+## Community & support
 
-The destination is the Super Tomcat experience DCS has never had — helmet-mounted cueing
-today, and next the avionics that defined the F-14D (APG-71-era radar displays and
-integration), built layer by layer on Heatblur's Tomcat, always on the same rule: the
-display earns every symbol it draws.
+Questions, bug reports, feedback — join the [Pixel Pilot Club Discord](https://discord.gg/).
 
 ---
 
-**PixelPilotClub** · created by **SYNTAX** · [Discord](https://discord.gg/6PK8ZtZ5u9)
-
-*An independent, free fan project for DCS World. Requires Heatblur's F-14. Not affiliated
-with Heatblur Simulations or Eagle Dynamics.*
+© Pixel Pilot Club. Licensed for personal use; not for redistribution.
