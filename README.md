@@ -1,4 +1,4 @@
-# F-14B(U) JHMCS
+# F-14B(U) Fictional JHMCS
 
 A helmet-mounted display for the Heatblur **F-14B(U)** in DCS World — symbology that follows
 your head, so you can find, identify and engage without looking through the HUD.
