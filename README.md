@@ -51,7 +51,7 @@ the logs we need. Send it to us on Discord and we can see exactly what the mod i
 
 ## Community & support
 
-Questions, bug reports, feedback, join the [Pixel Pilot Club Discord](https://discord.gg/).
+Questions, bug reports, feedback, join the [Pixel Pilot Club Discord](https://discord.gg/YJY5XYvCS6).
 
 ---
 
